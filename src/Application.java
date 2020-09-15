@@ -1,5 +1,5 @@
 //Programmer: Alex Morales
-// Program Name: Decrypter.java
+// Program Name: Decrypter/Encrypter.java
 // Purpose: The purpose of this first assignment is to get you more familiar with writing basic Java programs and pushing your source code to GitHub.
 //Date Written: 09/14/2020
 
