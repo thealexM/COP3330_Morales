@@ -135,6 +135,6 @@ public class App {
     }
 
     private static void screenClear(){
-        System.out.println("\n\n\n\nThat entry is invalid.\n\n\n\n");
+        System.out.println("That entry is invalid.");
     }
 }
