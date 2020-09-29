@@ -99,6 +99,7 @@ public class App {
     private static Boolean errorCheck(String Buffer){
 
         if(Buffer.matches("Y")) return true;
+       
         if(Buffer.matches("N")) return false;
 
 
