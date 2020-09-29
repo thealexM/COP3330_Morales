@@ -45,6 +45,7 @@ class BodyMassIndexTest {
     @Test
     
     void testBoss(){
+        
         BodyMassIndex bmi = new BodyMassIndex(72, 200);
 
         assertEquals(27.1,bmi.index);
