@@ -39,7 +39,7 @@ public class App {
     private static boolean moreInput() {
 
 
-        System.out.println("\n\nDo you want to make an entry?\n\n\nEnter Y for Yes or N for No.");
+        System.out.println("\nDo you want to make an entry?\n\n\nEnter Y for Yes or N for No.");
 
 
         Scanner in = new Scanner(System.in);
