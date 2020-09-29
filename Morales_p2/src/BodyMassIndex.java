@@ -22,13 +22,16 @@ public class BodyMassIndex {
     public String FindCategory(double index){
 //Decided to not use else
       
-        if(index < 18.5)        return "undernourished.";
+        if(index < 18.5)        
+            return "undernourished.";
 
-        if(index < 25)          return "regular.";
+        if(index < 25)         
+            return "regular.";
 
-        if(index < 30)          return "overweight.";
+        if(index < 30)          
+            return "overweight.";
                                 
-                                return "obese."; //Could over accumulated with overweight in Test
+             return "obese."; //Could over accumulated with overweight in Test
 
     }
 
