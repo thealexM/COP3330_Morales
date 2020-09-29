@@ -6,7 +6,6 @@
 
 public class BodyMassIndex {
 
-
     public double index;
 
     public String category;
