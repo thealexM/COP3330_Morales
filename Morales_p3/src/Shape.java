@@ -20,7 +20,8 @@ class Square extends Shape2D {
     
     private static double side = 0;
    
-    protected Square(double input) {        //The shape methods assign the input to corresponding variables.
+    protected Square(double input) {        
+        
         side = input;
     }
     
@@ -31,6 +32,7 @@ class Square extends Shape2D {
    
     @Override
     protected double getArea() {
+        
         return side*side;
     }
 }
@@ -48,28 +50,35 @@ class Triangle extends Shape2D {
    
     @Override
     protected String getName() {
+       
         return "Triangle";
     }
     
     @Override
     protected double getArea() {
+        
         return 0.5*width*length;
     }
 }
 
 class Circle extends Shape2D {
+   
     private static double radius = 0;
+   
     protected Circle(double input) {
+        
         radius = input;
     }
    
     @Override
     protected String getName() {
+        
         return "Circle";
     }
     
     @Override
     protected double getArea() {
+        
         return Math.PI*radius*radius;
     }
 }
@@ -78,11 +87,13 @@ class Cube extends Shape3D {
     private static double side = 0;
    
     protected Cube(double input) {
+       
         side = input;
     }
     @Override
    
     protected String getName() {
+       
         return "Cube";
     }
     @Override
@@ -112,6 +123,7 @@ class Pyramid extends Shape3D {
     
     @Override
     protected String getName() {
+       
         return "Pyramid";
     }
    
@@ -123,10 +135,12 @@ class Pyramid extends Shape3D {
 
     @Override
     protected double getVolume() {
+        
         return height*width*length/3.0;
     }
    
     private double baseArea(double width, double length){                   //Finds the area of the pyramid base
+        
         return width*length;
     }
     
@@ -145,21 +159,25 @@ class Sphere extends Shape3D {
     private static double radius = 0;
    
     protected Sphere(double input) {
+       
         radius = input;
     }
    
     @Override
     protected String getName() {
+        
         return "Sphere";
     }
     
     @Override
     protected double getArea() {
+        
         return 4.0*Math.PI*radius*radius;
     }
    
     @Override
     protected double getVolume() {
+        
         return 4.0/3.0*Math.PI*radius*radius*radius;
     }
 }
