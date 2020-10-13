@@ -139,7 +139,7 @@ class Pyramid extends Shape3D {
         return height*width*length/3.0;
     }
    
-    private double baseArea(double width, double length){                   //Finds the area of the pyramid base
+    private double baseArea(double width, double length){                   
         
         return width*length;
     }
